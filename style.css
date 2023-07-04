@@ -1,0 +1,26 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.name-color{
+    color: rgb(65, 65, 227);
+}
+section{
+    display:flex;
+}
+
+.divition{
+    width:50%;
+    padding: 40px 10px;
+}
+.divition img{
+    width:80%;
+}
+.button-link{
+    text-decoration: none;
+    background-image: linear-gradient(blue, pink);
+    padding:9px 15px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    border-radius: 5px;
+    
+}
