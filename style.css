@@ -1,19 +1,29 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin:0;
 }
 .name-color{
-    color: rgb(65, 65, 227);
+    color: rgb(255, 0, 174);
 }
 section{
     display:flex;
+    margin-bottom: 100px; 
+   
+    
+}
+.first-section{
+    background-image: url(image/modern-sharp-abstract-shapes-background-purple_78370-719.avif);
+    background-repeat: no-repeat;
+    
 }
 
 .divition{
-    width:50%;
-    padding: 40px 10px;
+    width:60%;
+    padding-right: 23px;
+   
 }
 .divition img{
-    width:80%;
+    width:60%;
 }
 .button-link{
     text-decoration: none;
@@ -23,4 +33,11 @@ section{
     font-weight: 600;
     border-radius: 5px;
     
+}
+
+.second-section{
+    display: flex;
+    background-image: url(image/flowing-badge-app_74855-3835.jpg);
+    background-repeat: no-repeat;
+
 }
